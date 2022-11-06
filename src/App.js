@@ -1,9 +1,11 @@
 import "./App.css";
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   return (
     <div>
       <h2> Let's get access started!</h2>
+      <ExpenseItem />
     </div>
   );
 }
